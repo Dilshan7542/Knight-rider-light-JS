@@ -11,20 +11,24 @@ body>main{
     justify-content:space-evenly;
     align-items: center;
 }
-
 main>section{
-    width: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+main>section>section{
+    width: 80%;
     height: 30px;
     display: flex;
-    border: #312b2b solid 1px;
+    border: rgba(31, 29, 29, 0.87) solid 1px;
 }
-main>section>div{
+main>section>section>div{
     flex-grow: 1;
     transition: all 0.5s;
 }
 main>aside{
     width: 10%;
-    padding-top: 2%;
     display: flex;
     justify-content: space-between;
 }
