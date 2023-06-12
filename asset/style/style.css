@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body>main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main>section{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    border: black solid 1px;
+}
+main>section>div{
+    flex-grow: 1;
+    transition: all 0.5s;
+}
+main>aside{
+    width: 10%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+main>aside>button{
+    cursor: pointer;
+    border-radius: 12px;
+    font-weight: bold;
+}
