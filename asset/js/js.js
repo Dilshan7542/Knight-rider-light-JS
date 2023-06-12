@@ -35,6 +35,7 @@ $(startBtn).click(function (){
     if(interval==null){
 interval=setInterval(ride,200);
     audio.play();
+    audio.loop=true;
     }
 $(this).css("background-color","blue");
 $(endBtn).css("background","white");

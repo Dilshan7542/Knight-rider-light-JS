@@ -21,7 +21,7 @@ main>section>section{
     width: 80%;
     height: 30px;
     display: flex;
-    border: rgba(31, 29, 29, 0.87) solid 1px;
+    border: rgba(0, 0, 0, 0.5) solid 1px;
 }
 main>section>section>div{
     flex-grow: 1;
