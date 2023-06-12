@@ -5,16 +5,16 @@ function ride(){
     if(count>1){
     $(`div:nth-child(${count-1})`).css("background","rgba(238, 4, 4, 0.30)");
     }
-    if (count < 7) {
+    if (count < 10) {
     $(`div:nth-child(${count+1})`).css("background","rgba(238, 4, 4, 0.30)");
     }
-    if(count<6){
+    if(count<9){
     $(`div:nth-child(${count+2})`).css("background","rgba(238, 4, 4, 0.0)");
     }
     if(count>2){
         $(`div:nth-child(${count-2})`).css("background","rgba(238, 4, 4, 0.0)");
     }
-    if(count==7){
+    if(count==10){
         onOf=true;
     }else if(count==0){
         onOf=false;
