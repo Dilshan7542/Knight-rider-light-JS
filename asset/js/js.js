@@ -26,6 +26,7 @@ function ride(){
     }
 
 }
+
 var interval=null;
 var startBtn=$("aside>:first-child");
 var endBtn=$("aside>:last-child");
@@ -35,6 +36,7 @@ $(startBtn).click(function (){
     if(interval==null){
 interval=setInterval(ride,200);
     audio.play();
+    /*Audio play again*/
     audio.loop=true;
     }
 $(this).css("background-color","blue");
